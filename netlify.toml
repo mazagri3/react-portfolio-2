@@ -1,5 +1,5 @@
 [build]
-  command = "cd /opt/build/repo && npm install --production=false && ./node_modules/.bin/vite build"
+  command = "npm install && npm run build"
   publish = "dist"
   node_version = "18"
 
