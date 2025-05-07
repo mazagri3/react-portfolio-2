@@ -1,54 +1,101 @@
-# React Portfolio 2
+# React Portfolio
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+A modern, responsive portfolio website built with React, TypeScript, and Material-UI.
 
-## Description
-A professional, marketable portfolio website built with React, Vite, and Material UI. This site showcases Obi Mazagri's work, resume, and contact information, and is designed to impress employers and recruiters.
+## Features
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Questions](#questions)
-- [Credits](#credits)
-- [Preview](#preview)
-- [License](#license)
-- [Instructor Notes](#instructor-notes)
+- 🎨 Modern and clean design using Material-UI
+- 📱 Fully responsive layout
+- ⚡ Built with React and TypeScript
+- 🎭 Smooth animations using Framer Motion
+- 🛣️ Client-side routing with React Router
+- 🎯 SEO optimized
 
-## Installation
-1. Clone the repo:
-   ```bash
-   git clone git@github.com:mazagri3/react-portfolio-2.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the dev server:
-   ```bash
-   npm run dev
-   ```
+## Technologies Used
 
-## Usage
-- Visit [http://localhost:5173](http://localhost:5173) to view the portfolio locally.
-- Navigate using the top navbar to see About, Projects, Resume, and Contact sections.
+- React 18
+- TypeScript
+- Material-UI
+- Framer Motion
+- React Router DOM
+- Vite
+- ESLint
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+```
+
+2. Navigate to the project directory:
+```bash
+cd 12-react-protfolio-2
+```
+
+3. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable components
+├── pages/         # Page components
+├── styles/        # Global styles
+├── utils/         # Utility functions
+├── App.tsx        # Main App component
+└── main.tsx       # Entry point
+```
+
+## Deployment
+
+The project is configured for deployment on Netlify. The build process is optimized with:
+- ESBuild for minification
+- Source maps for debugging
+- TypeScript compilation
+- Asset optimization
 
 ## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any feature requests or bugs.
 
-## Questions
-For any questions, please contact me on GitHub at [mazagri3](https://github.com/mazagri3) or email obrida@live.com.
-
-## Credits
-This project was created as part of a coding bootcamp assignment. Guidance and code assistance provided by ChatGPT, tutors, and instructors.
-
-## Preview
-<!-- Add screenshots or GIFs here if available -->
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
-MIT License © 2025 Obi Mazagri
 
-## Instructor Notes
-- All major code sections include comments for the instructor.
-- Each feature and section is committed separately for clarity.
-- The project uses modern React, Vite, and Material UI best practices.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Project Link: [https://github.com/yourusername/12-react-protfolio-2](https://github.com/yourusername/12-react-protfolio-2)
