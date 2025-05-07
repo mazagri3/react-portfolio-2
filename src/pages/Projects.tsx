@@ -1,5 +1,12 @@
 import React from 'react';
-import { Box, Typography, Grid, Card, CardContent, CardMedia, CardActions, Button } from '@mui/material';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import CardActions from '@mui/material/CardActions';
+import Button from '@mui/material/Button';
 import { motion } from 'framer-motion';
 
 // For Instructor:
