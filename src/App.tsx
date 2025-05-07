@@ -8,6 +8,7 @@ import Hero from './pages/Hero';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 // Components (to be created)
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
@@ -40,7 +41,7 @@ function App() {
           </Routes>
         </Box>
       </Container>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
