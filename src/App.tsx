@@ -5,6 +5,7 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import About from './pages/About';
 import Hero from './pages/Hero';
+import Resume from './pages/Resume';
 // Components (to be created)
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
@@ -32,7 +33,7 @@ function App() {
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<div>Projects Section (to be implemented)</div>} />
-            <Route path="/resume" element={<div>Resume Section (to be implemented)</div>} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<div>Contact Section (to be implemented)</div>} />
           </Routes>
         </Box>
