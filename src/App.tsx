@@ -7,6 +7,7 @@ import About from './pages/About';
 import Hero from './pages/Hero';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
 // Components (to be created)
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
@@ -21,7 +22,7 @@ function App() {
   return (
     <Router>
       <CssBaseline />
-      {/* <Navbar /> */}
+      <Navbar />
       <Container maxWidth="lg" disableGutters>
         <Box sx={{ minHeight: '100vh', bgcolor: '#181818', color: '#fff' }}>
           {/*
