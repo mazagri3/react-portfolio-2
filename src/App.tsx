@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import About from './pages/About';
+import Hero from './pages/Hero';
 // Components (to be created)
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
@@ -28,12 +29,7 @@ function App() {
             - Navbar and Footer will be added for navigation and social links.
           */}
           <Routes>
-            {/* <Route path="/" element={<Hero />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} /> */}
-            <Route path="/" element={<div>Landing/Hero Section (to be implemented)</div>} />
+            <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<div>Projects Section (to be implemented)</div>} />
             <Route path="/resume" element={<div>Resume Section (to be implemented)</div>} />
