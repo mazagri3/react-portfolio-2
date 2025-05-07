@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Avatar, Stack, Link, Button } from '@mui/material';
+import { Box, Typography, Avatar, Stack, Link } from '@mui/material';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
 // For Instructor:
@@ -21,7 +21,7 @@ const About: React.FC = () => (
   >
     {/* Profile Photo */}
     <Avatar
-      src={require('../assets/img/aboutme.jpg')}
+      src="https://avatars.githubusercontent.com/u/178171220?s=400&u=4417c16a8501221d0c23601f45528aa4a8a43b78&v=4"
       alt="Obi Mazagri"
       sx={{ width: 200, height: 200, boxShadow: 3, border: '4px solid gold' }}
     />
@@ -38,13 +38,13 @@ const About: React.FC = () => (
       </Typography>
       <Stack direction="row" spacing={2} alignItems="center">
         <Link href="https://www.linkedin.com/in/ob-mazagri-42225a242/" target="_blank" rel="noopener" color="inherit">
-          <FaLinkedin size={32} />
+          {FaLinkedin({ size: 32 })}
         </Link>
         <Link href="https://www.instagram.com/ob_mazagri47/" target="_blank" rel="noopener" color="inherit">
-          <FaInstagram size={32} />
+          {FaInstagram({ size: 32 })}
         </Link>
         <Link href="https://github.com/mazagri3" target="_blank" rel="noopener" color="inherit">
-          <FaGithub size={32} />
+          {FaGithub({ size: 32 })}
         </Link>
       </Stack>
       <Typography variant="body2" color="#aaa">

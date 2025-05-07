@@ -15,13 +15,13 @@ const Footer: React.FC = () => (
       </Typography>
       <Stack direction="row" spacing={2} alignItems="center">
         <IconButton component={Link} href="https://www.linkedin.com/in/ob-mazagri-42225a242/" target="_blank" rel="noopener" sx={{ color: 'gold' }}>
-          <FaLinkedin size={24} />
+          {FaLinkedin({ size: 24 })}
         </IconButton>
         <IconButton component={Link} href="https://www.instagram.com/ob_mazagri47/" target="_blank" rel="noopener" sx={{ color: 'gold' }}>
-          <FaInstagram size={24} />
+          {FaInstagram({ size: 24 })}
         </IconButton>
         <IconButton component={Link} href="https://github.com/mazagri3" target="_blank" rel="noopener" sx={{ color: 'gold' }}>
-          <FaGithub size={24} />
+          {FaGithub({ size: 24 })}
         </IconButton>
       </Stack>
       <Typography variant="body2" color="#ccc">
