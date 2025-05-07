@@ -7,6 +7,7 @@
   NODE_VERSION = "18"
   NODE_ENV = "production"
   VITE_BUILD_MODE = "production"
+  NPM_FLAGS = "--legacy-peer-deps"
 
 [[redirects]]
   from = "/*"
