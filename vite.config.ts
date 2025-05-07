@@ -5,7 +5,8 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  root: '.',
+  root: process.cwd(),
+  publicDir: 'public',
   build: {
     outDir: 'dist',
     sourcemap: true,
@@ -13,7 +14,7 @@ export default defineConfig({
     target: 'es2015',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html')
+        main: resolve(process.cwd(), 'index.html')
       }
     }
   }
